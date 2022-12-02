@@ -66,3 +66,54 @@ img.portrait{
     transform: translate(-50%, -50%);
     text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
 }
+
+
+/********** Servicios section **********/
+
+.servicios-cards {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.container-servicios{
+    margin-left: 125px;
+    margin-right: 125px;
+}
+
+.servicios-card-img img{
+    height: 208px;
+}
+
+.servicios-card-body {
+    height: 190px;
+}
+
+.servicios-card-body h5 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 650;
+}
+
+.servicios-card-body p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.container-servicios h2{
+    text-align: center;
+    padding: 30px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.servicios-card-footer .btn {
+    font-family: 'Poppins', sans-serif;
+}
+
+/***** Modales *****/
+
+.modal-title {
+    font-family: 'Mulish', sans-serif;
+}
+
+.modal-body {
+    font-family: 'Poppins', sans-serif;
+}
