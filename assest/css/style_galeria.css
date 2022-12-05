@@ -126,6 +126,33 @@ img.portrait{
     font-family: 'Poppins', sans-serif;
 }
 
+/******** Section formulario ********/
+.formulario-header h2 {
+    font-family: 'Mulish', sans-serif;
+    margin-bottom: 0;
+    padding: 30px;
+}
+
+.formulario-header p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+/******** Section Mapa ********/
+.mapa-header h2 {
+    font-family: 'Mulish', sans-serif;
+    padding: 30px;
+}
+
+.mapa-header h4 {
+    font-family: 'Mulish', sans-serif;
+}
+
+.mapa-header p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
 /******** Section preguntas frecuentes ********/
 
 .container-pfrecuentes {
