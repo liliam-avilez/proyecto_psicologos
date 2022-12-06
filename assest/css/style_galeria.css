@@ -1,6 +1,8 @@
+
 #galeria .col-lg-4{
     margin: 0, !important;
     padding:25px;
+   
 }
 
 
@@ -126,6 +128,7 @@ img.portrait{
 .modal-body {
     font-family: 'Poppins', sans-serif;
 }
+
 
 /******** Section formulario ********/
 .formulario-header h2 {
