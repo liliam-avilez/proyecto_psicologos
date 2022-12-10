@@ -59,6 +59,7 @@ img.portrait{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: justify;
+    width: 50%;
 }
 
 .container-nosotros h3{
@@ -72,21 +73,28 @@ img.portrait{
 }
 
 
-@media(max-width:700px){
+@media(max-width:600px){
     .container-nosotros p{
         font-size: 14px;
-        padding:10px 0px 10px 0px;
+        padding:0px 0px 0px 0px;
+        
+        margin: 50px 0px 0px 0px;
+        width: 85%;
+        
         
         
     }
     .container-nosotros h3{
+        padding-top: 70px;
         font-size: 1.9rem;
         text-align: center;
         
         
     }
     .container-nosotros{
-        padding-top: 97px;
+        margin-top: 4px;
+        
+        height: fit-content;
         
         
     }
