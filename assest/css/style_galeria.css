@@ -129,6 +129,7 @@ img.portrait{
 .container-servicios{
     margin-left: 125px;
     margin-right: 125px;
+    margin-bottom: 65px;
 }
 
 .servicios-card-img img{
@@ -136,12 +137,13 @@ img.portrait{
 }
 
 .servicios-card-body {
-    height: 190px;
+    height: 175px;
 }
 
 .servicios-card-body h5 {
     font-family: 'Mulish', sans-serif;
     font-weight: 650;
+    font-size: 23px;
 }
 
 .servicios-card-body p {
@@ -157,6 +159,7 @@ img.portrait{
 
 .servicios-card-footer .btn {
     font-family: 'Poppins', sans-serif;
+    font-size: 16px;
 }
 
 /***** Modales *****/
