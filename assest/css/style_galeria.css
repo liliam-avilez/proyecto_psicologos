@@ -224,3 +224,8 @@ img.portrait{
     font-size: 14px;
 }
 
+@media(max-width:700px){
+    .formulario {
+        width: 100%;
+    }
+}
