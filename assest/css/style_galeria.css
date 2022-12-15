@@ -58,7 +58,7 @@ img.portrait{
 }
 
 .container-nosotros p{
-    font-size: 1.9rem;
+    font-size: 1.5rem;
     color: black;
     position: absolute;
     top: 50%;
@@ -66,7 +66,9 @@ img.portrait{
     transform: translate(-50%, -50%);
     text-align: justify;
     width: 50%;
+    margin-top: 20px;
     padding-top: 0%;
+    height: 10%;
 }
 
 .container-nosotros h3{
@@ -74,28 +76,34 @@ img.portrait{
     color: black ;
     position: absolute;
     text-align: center;
-    top: 20%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-shadow: 0 0 8px rgba(2, 118, 142, 0.8);
+    width: 50%;
 }
 
 
-@media(max-width:700px){
+
+
+@media(max-width:1200px){
     .container-nosotros p{
-        font-size: 14px;
+        font-size: 18px;
         padding:0px 0px 0px 0px;
         
-        margin: 60px 0px 0px 0px;
-        width: 85%;
+        margin: 25px 0px 0px 0px;
+        width: 45%;
+        height: 100px;
         
         
         
     }
+    
     .container-nosotros h3{
-        padding-top: 70px;
-        font-size: 1.9rem;
+        padding-top: 40px;
+        font-size: 3.0rem;
         text-align: center;
+        width: 50%;
         
         
     }
@@ -107,6 +115,62 @@ img.portrait{
     }
 }
 
+@media(max-width:900px){
+    .container-nosotros p{
+        font-size: 14px;
+        padding:0px 0px 0px 0px;
+        
+        margin: 35px 0px 0px 0px;
+        width: 50%;
+        height: 100px;
+        
+        
+        
+    }
+    
+    .container-nosotros h3{
+        padding-top: 40px;
+        font-size: 3rem;
+        text-align: center;
+        width: 50%;
+        
+        
+    }
+    .container-nosotros{
+        margin-top: 4px;
+        padding-bottom: 10px;
+        height: 75%;
+       
+    }
+}
+@media(max-width:700px){
+    .container-nosotros p{
+        font-size: 14px;
+        padding:0px 0px 0px 0px;
+        
+        margin: 25px 0px 0px 0px;
+        width: 85%;
+        height: 100px;
+        
+        
+        
+    }
+    
+    .container-nosotros h3{
+        padding-top: 40px;
+        font-size: 1.9rem;
+        text-align: center;
+        width: 70%;
+        
+        
+    }
+    .container-nosotros{
+        margin-top: 4px;
+        padding-bottom: 10px;
+        height: 75%;
+       
+    }
+}
         
         
         
